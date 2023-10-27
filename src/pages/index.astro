@@ -4,18 +4,21 @@ import Footer from '../components/Footer.astro';
 import GetInTouch from '../components/GetInTouch.astro';
 import Header from '../components/Header.astro';
 import Layout from '../layouts/Layout.astro';
-import RecentWork from '../components/RecentWork.astro';
+import Works from '../components/Works.astro';
+import Profile from '../components/Profile.astro';
+import Certificaton from '../components/Certification.astro';
 
-const title = 'I am Strata';
+const title = 'Autumnsky systems | 胸永晃考';
 ---
 
 <Layout {title}>
 	<Header />
 
 	<div id="main">
+		<Profile />
 		<Featured />
-		<RecentWork />
-		<GetInTouch />
+		<Works />
+		<Certificaton />
 	</div>
 
 	<Footer />
