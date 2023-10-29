@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
 		colors: {
-			'primary': '#436fb4',
+			'nakano-hanada': '#436fb4',
+			'hi-hanada': '#257bcc',
 		}
 	},
   },
