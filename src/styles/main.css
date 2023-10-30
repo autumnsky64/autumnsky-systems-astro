@@ -2164,14 +2164,9 @@ input, select, textarea {
 		}
 
 	ul {
-		list-style: disc;
+		list-style: none;
 		margin: 0 0 2em 0;
-		padding-left: 1em;
 	}
-
-		ul li {
-			padding-left: 0.5em;
-		}
 
 		ul.alt {
 			list-style: none;
@@ -3226,5 +3221,18 @@ input, select, textarea {
 	}
 
 	h2 {
-	@apply text-nakano-hanada
+		@apply text-3xl;
+		@apply text-nakano-hanada
 	}
+
+	dt {
+		@apply text-2xl;
+		@apply text-gray-500;
+		@apply mt-6;
+		@apply mb-4;
+	}
+	dd {
+		@apply leading-relaxed;
+		@apply my-1;
+		@apply text-gray-500;
+}
