@@ -3226,10 +3226,8 @@ input, select, textarea {
 	}
 
 	dt {
-		@apply text-2xl;
 		@apply text-gray-500;
 		@apply mt-6;
-		@apply mb-4;
 	}
 	dd {
 		@apply leading-relaxed;
